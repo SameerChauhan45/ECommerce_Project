@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\Sameer\\ECommerce_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66862DAE-27C0-4181-BB5C-16A7531B0DC0}|ECommerce_Project\\ECommerce_Project.csproj|C:\\Users\\Lenovo\\source\\Sameer\\ECommerce_Project\\ecommerce_project\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66862DAE-27C0-4181-BB5C-16A7531B0DC0}|ECommerce_Project\\ECommerce_Project.csproj|solutionrelative:ecommerce_project\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66862DAE-27C0-4181-BB5C-16A7531B0DC0}|ECommerce_Project\\ECommerce_Project.csproj|C:\\Users\\Lenovo\\source\\Sameer\\ECommerce_Project\\ecommerce_project\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66862DAE-27C0-4181-BB5C-16A7531B0DC0}|ECommerce_Project\\ECommerce_Project.csproj|solutionrelative:ecommerce_project\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66862DAE-27C0-4181-BB5C-16A7531B0DC0}|ECommerce_Project\\ECommerce_Project.csproj|C:\\Users\\Lenovo\\source\\Sameer\\ECommerce_Project\\ecommerce_project\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66862DAE-27C0-4181-BB5C-16A7531B0DC0}|ECommerce_Project\\ECommerce_Project.csproj|solutionrelative:ecommerce_project\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 173,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\Sameer\\ECommerce_Project\\ECommerce_Project\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "ECommerce_Project\\Views\\Account\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\Sameer\\ECommerce_Project\\ECommerce_Project\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "ECommerce_Project\\Views\\Account\\Profile.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAC8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T19:11:42.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\Sameer\\ECommerce_Project\\ECommerce_Project\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ECommerce_Project\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\Sameer\\ECommerce_Project\\ECommerce_Project\\Controllers\\CartController.cs",
+              "RelativeToolTip": "ECommerce_Project\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T20:52:09.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\Sameer\\ECommerce_Project\\ECommerce_Project\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "ECommerce_Project\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\Sameer\\ECommerce_Project\\ECommerce_Project\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "ECommerce_Project\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAMwBcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T15:45:18.842Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
