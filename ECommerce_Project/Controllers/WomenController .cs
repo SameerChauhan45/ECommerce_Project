@@ -14,22 +14,43 @@ namespace ECommerce_Project.Controllers
         // GET: Women Pants
         public ActionResult Handbags()
         {
-            var data = product.GetProduct();
-            return View(data);
+            if (Session["UserRole"]?.ToString() == "Customer")
+            {
+                var women = product.GetProduct().Where(m => m.Category == "Handbags").ToList();
+                return View(women);
+            }
+            else
+            {
+                return RedirectToAction("Login", "Account");
+            }
         }
 
         // GET: Women Top
         public ActionResult Dresses()
         {
-            var data = product.GetProduct();
-            return View(data);
+            if (Session["UserRole"]?.ToString() == "Customer")
+            {
+                var women = product.GetProduct().Where(m => m.Category == "Dresses").ToList();
+                return View(women);
+            }
+            else
+            {
+                return RedirectToAction("Login", "Account");
+            }
         }
 
         // GET: Women Shoes
         public ActionResult Shoes()
         {
-            var data = product.GetProduct();
-            return View(data);
+            if (Session["UserRole"]?.ToString() == "Customer")
+            {
+                var women = product.GetProduct().Where(m => m.Category == "Shoes").ToList();
+                return View(women);
+            }
+            else
+            {
+                return RedirectToAction("Login", "Account");
+            }
         }
     }
 }

@@ -18,25 +18,43 @@ namespace ECommerce_Project.Controllers
         // GET: Men Pants
         public ActionResult Pants()
         {
-            var men = product.GetProduct();
-
-            return View(men);
+            if (Session["UserRole"]?.ToString() == "Customer")
+            {
+                var men = product.GetProduct().Where(m => m.Category =="Pants").ToList();
+                return View(men);
+            }
+            else
+            {
+                return RedirectToAction("Login", "Account");
+            }
         }
 
         // GET: Men Shirt
         public ActionResult Shirt()
         {
-            var men = product.GetProduct();
-
-            return View(men);
+            if (Session["UserRole"]?.ToString() == "Customer")
+            {
+                var men = product.GetProduct().Where(m => m.Category == "Shirts").ToList();
+                return View(men);
+            }
+            else
+            {
+                return RedirectToAction("Login", "Account");
+            }
         }
 
         // GET: Men Shoes
         public ActionResult Shoes()
         {
-            var men = product.GetProduct();
-
-            return View(men);
+            if (Session["UserRole"]?.ToString() == "Customer")
+            {
+                var men = product.GetProduct().Where(m => m.Category == "Shoes").ToList();
+                return View(men);
+            }
+            else
+            {
+                return RedirectToAction("Login", "Account");
+            }
         }
     }
 }

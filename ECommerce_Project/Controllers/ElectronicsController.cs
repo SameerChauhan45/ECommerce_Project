@@ -9,26 +9,47 @@ namespace ECommerce_Project.Controllers
 {
     public class ElectronicsController : Controller
     {
-        ElectronicsModel electronicsModel = new ElectronicsModel();
+        ElectronicsModel electronicsproduct = new ElectronicsModel();
         // GET: Electronics Speakers
         public ActionResult Headphones()
         {
-            var data = electronicsModel.GetProduct();
-            return View(data);
+            if (Session["UserRole"]?.ToString() == "Customer")
+            {
+                var data = electronicsproduct.GetProduct().Where(m =>m.Category=="Headphones").ToList();
+                return View(data);
+            }
+            else
+            {
+                return RedirectToAction("Login", "Account");
+            }
         }
 
         // GET: Electronics TV
         public ActionResult Tv()
         {
-            var data = electronicsModel.GetProduct();
-            return View(data);
+            if (Session["UserRole"]?.ToString() == "Customer")
+            {
+                var data = electronicsproduct.GetProduct().Where(m => m.Category == "Tv").ToList();
+                return View(data);
+            }
+            else
+            {
+                return RedirectToAction("Login", "Account");
+            }
         }
 
         // GET: Electronics Watch
         public ActionResult Watch()
         {
-            var data = electronicsModel.GetProduct();
-            return View(data);
+            if (Session["UserRole"]?.ToString() == "Customer")
+            {
+                var data = electronicsproduct.GetProduct().Where(m => m.Category == "Watch").ToList();
+                return View(data);
+            }
+            else
+            {
+                return RedirectToAction("Login", "Account");
+            }
         }
     }
 }
